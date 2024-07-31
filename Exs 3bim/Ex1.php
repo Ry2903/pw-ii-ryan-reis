@@ -1,4 +1,5 @@
 <?php
+    //Lista: https://github.com/gabriel-trevisan/ExerciciosPHP/blob/master/topics/Easy.md
     //Ex1
     function soma($n1, $n2){
         $sum = $n1+$n2;
