@@ -27,13 +27,30 @@
         if (in_array());
     }
 
-    //Ex5
+   //Ex5
     function animals($num_g, $num_v, $num_p){
         $array = array($num_g, $num_v, $num_p);
         $galinha = $num_g * 2;
         $vaca = $num_v * 4;
         $porco = $num_p * 4;
-        $array = array($galinha, $vaca, $porco);
+        echo $galinha," ", $vaca," ", $porco;
+    }
+    echo animals(2, 3, 5);
 
+    //Ex6
+    function menornum($n1, $n2){
+        if $n1 > $n2 {
+            return $n2;
+        } elseif ($n2 > $n1){
+            return $n1;
+        } elseif ($n1 == $n2){
+            echo "Os dois números são iguais";
+        }
+    }
+    echo menornum(20, 30);
+
+    //Ex7
+    function menorarray($a, $b, $c, $d, $e){
+        
     }
 ?> 
